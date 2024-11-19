@@ -11,6 +11,7 @@ origins = [
   "https://www.musico.kr",
   "http://musico.kr",
   "https://musico.kr",
+  "https://musico.cher1shrxd.me"
 ]
 
 app.add_middleware(
