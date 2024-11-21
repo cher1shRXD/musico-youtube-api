@@ -7,11 +7,8 @@ app = FastAPI()
 
 origins = [
   "http://localhost:3000",
-  "http://www.musico.kr",
-  "https://www.musico.kr",
-  "http://musico.kr",
-  "https://musico.kr",
-  "https://musico.cher1shrxd.me"
+  "https://musico.cher1shrxd.me",
+  "http://localhost:5173"
 ]
 
 app.add_middleware(
