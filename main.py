@@ -6,9 +6,8 @@ from services.search_youtube import search_youtube
 app = FastAPI()
 
 origins = [
-  "http://localhost:3000",
-  "https://musico.cher1shrxd.me",
   "http://localhost:5173",
+  "https://musico.kr",
   "http://172.30.1.13:5173"
 ]
 
